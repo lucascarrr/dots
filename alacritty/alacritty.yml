@@ -1,0 +1,72 @@
+
+window:
+  opacity: 0.8
+
+  padding:
+    x: 100
+    y: 100
+  
+  decorations: Full
+font:
+  normal:
+    family: "SF Mono" 
+    #"Iosevka Term" 
+    #"JetBrainsMono Nerd Font Mono"
+  size: 10
+  offset:
+    x: 0
+  use_thin_strokes: false
+
+draw_bold_text_with_bright_colors: true
+live_config_reload: true
+
+colors:
+  primary:
+    background: "#151617"
+    foreground: "#D4D4D4"
+
+  normal:
+    black:    "#252B2E"
+    red:      "#E15A60"
+    green:    "#99C794"
+    yellow:   "#FAC863"
+    blue:     "#6699cc"
+    magenta:  "#C594C5"
+    cyan:     "#5FB3B3"
+    white:    "#D4D4D4"
+  
+  bright:
+    black:   '0x4C566A'
+    red:     '0xBF616A'
+    green:   '0xA3BE8C'
+    yellow:  '0xEBCB8B'
+    blue:    '0x81A1C1'
+    magenta: '0xB988B0'
+    cyan:    '0x8FBCBB'
+    white:   '0xECEFF4'
+
+  search:
+    matches:
+      foreground: '#81A1C1'
+      background: '#4C566A'
+    
+    focused_match:
+      foreground: '#EBCB8B'
+      background: '#4C566A'
+      
+    bar:
+      background: '#434C5E'
+      foreground: '#88C0D0'
+      
+    hints:
+      start:
+        foreground: '#B988B0'
+        background: '#4C566A'
+      end:
+        foreground: '#81A1C1'
+        background: '#4C566A'
+    
+    selection:
+      text: CellForeground
+      background: '#3F4758'  
+
